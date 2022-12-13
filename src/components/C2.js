@@ -7,7 +7,9 @@ function C2() {
   let fname=useContext(FirstName);
   let lname=useContext(LastName);
   return (
-    <div><>Inside C2 and calling C3 . Saying hey to {fname}  {lname} </><C3></C3></div>
+    <div><>Inside C2 and calling C3 . Saying hey to {fname}  {lname} </>
+    <C3></C3>
+    </div>
   )
 }
 
